@@ -1,0 +1,232 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff url(../images/bkgd.jpg) center repeat-y;
+}
+
+#body-margin{
+    text-align: center;
+    background: #fff;
+    padding: 0px 11px;
+    margin: 0 auto;
+    width: 920px;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+    width: 898px;
+}
+
+img { border: none; }
+a { text-decoration: none; color:rgb(234, 196, 124); font-weight: bold;}
+a:hover { text-decoration: underline; color: #fd7979; }
+
+/*---------- Divs ----------*/
+#header {
+    background: url("../images/header.jpg") no-repeat center;
+    height: 120px;
+    width: 890px;
+    margin: 0 auto;
+}
+
+#logo{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 890px;
+}
+
+#logo a:hover {
+    text-decoration: none;
+}
+
+#logo a {
+    float: left;
+    width: 200px;
+    height: 85px;
+}
+
+#container {
+    width: 890px;
+    overflow: hidden;
+    text-align: left;
+    font: 90% Tahoma, Helvetica, sans-serif;
+    margin: 0px auto;
+    background: #fff;
+    padding-bottom: 30px;
+}
+* html #container {
+    overflow: visible;
+}
+#intro{
+    min-height: 190px;
+    margin: 10px auto;
+}
+* html #intro { height: 190px;}
+
+#intro-image{
+    float: left;
+    width: 160px;
+}
+
+#intro-text{
+    padding-top: 10px;
+    width: 305px;
+    float: right;
+    text-align: justify;
+}
+
+#content{
+    margin-top: 20px;
+    min-height: 250px;
+}
+* html #content { height: 250px;}
+
+#sidecontent{
+    float: left;
+    border: 2px solid #828282;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 240px;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+    width: 210px;
+}
+html>body #sidecontent { width: 210px }  /* for opera */
+
+#sidecontent img{
+    padding: 1px;
+    border: 1px solid #828282;
+}
+
+#maincontent {
+    width: 890px;
+}
+
+#mainleft {
+    float: left;
+    width: 280px;
+    margin-right: 10px;
+}
+#maincenter {
+    margin-left: 10px;
+    float: left;
+    width: 280px;
+    margin-right: 10px;
+}
+#mainright {
+    margin-left: 10px;
+    float: right;
+    width: 280px;
+}
+
+#mainright a {
+    color: #000;
+}
+
+#footer {
+    width: 890px;
+    margin: 0 auto;
+    min-height: 70px;
+    background: #c51010 url(../images/gradient.gif) repeat-x;
+    border-top: 4px solid #828282;
+    font-size: 92%;
+    color: #fff;
+}
+* html #footer {height: 100px;}
+
+#footertextleft{
+    margin-top: 10px;
+    float: left;
+    width: 500px;
+    text-align:left;
+    padding-left: 10px;
+}
+
+#footertextright{
+    margin-top: 10px;
+    text-align: right;
+    width: 350px;
+    float: right;
+    padding-right: 10px;
+}
+
+/*------------------------- Navigation --------------------------*/
+
+#navcontainer {
+    width: 890px;
+    height: 38px;
+    background: #c20404 url(../images/gradient.gif) repeat-x;
+    margin: 10px auto 0 auto;
+    border-bottom: 4px solid #828282;
+    display: block;
+    font-size: 140%;
+}
+* html #navcontainer { height: 43px;}
+
+#navcontainer ul {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    font-size: 65%;
+}
+
+#navcontainer li {
+    margin: 10px 3px 0px 3px;
+    float: left;
+    height: 28px;
+}
+
+#navcontainer a {
+    float: left;
+    display: block;
+    padding: 7px 9px 6px 9px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#navcontainer a:hover {
+    background: #828282;
+    color: #fff;
+    cursor: pointer;
+}
+/*---------- Headings ----------*/
+h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font: 120% Arial;
+    font-weight: bold;
+    color: #c20404;
+}
+
+.mainheading{
+    font-weight: bold;
+    font-size: 163%;
+}
+.mainheading2{
+    font-weight: bold;
+    font-size: 203%;
+}
+
+/*---------- Classes ----------*/
+.heading{
+    background: #c20404;
+    border-bottom: 4px solid #828282;
+    height: 25px;
+}
+
+.subheading-white{
+    color: #fff;
+    margin: 0px;
+    padding: 5px 0 0 10px;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.p-indent{
+    padding-top: 0px;
+    padding-left: 10px;
+}
